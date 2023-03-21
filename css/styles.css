@@ -1,0 +1,141 @@
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Montserrat";
+}
+#title{
+    background: #ff4c68;
+    color: white;
+}
+body{
+    font-family: "Montserrat";
+}
+.container-fluid{
+    padding: 1.5% 15%;
+}
+/* NAv Bar*/
+.navbar{
+    padding: 4.5rem;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+.download-button{
+    margin: 3% 3% 3% 0;
+}
+.tittle-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+
+#features{
+    padding: 4% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.feature-box p {
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+.feature-box{
+    padding: 4% 0% 4% 0%;
+}
+.icon {
+    margin-bottom: 3%;
+    color: color(srgb 1 0.296 0.4058);
+    transition: all 0.3s;
+}
+.icon:hover{
+    color: brown;
+    transition: all 0.3s;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f17353;
+    color: white;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 10px;
+}
+#press{
+    background-color: #f17353;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+.card{
+    margin: 10px;
+}
+.col{
+    margin-top: 5%;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.card h3{
+    font-weight: 700;
+}
+.card-header h3{
+    font-weight: 700;
+}
+.card-body h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+@media (max-width: 1028px) {
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#footer{
+    background-color: white;
+    color: black;
+    padding: 5% 30%;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.footer-icons{
+    color: darkgrey;
+}
+.footer-icons svg {
+    cursor: pointer;
+    margin: 1%;
+}
